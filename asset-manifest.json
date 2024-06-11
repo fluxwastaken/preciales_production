@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/preciales_production/static/css/main.e5800934.css",
+    "main.js": "/preciales_production/static/js/main.71d1a9cf.js",
+    "static/media/landing-1.png": "/preciales_production/static/media/landing-1.97e331907dd1f2417be6.png",
+    "static/media/landing-2.png": "/preciales_production/static/media/landing-2.cdf46cf8c77506bbb5fb.png",
+    "static/media/landing-4.png": "/preciales_production/static/media/landing-4.6d7fefd8e51bd913a461.png",
+    "static/media/GeorgiaPro-Light.ttf": "/preciales_production/static/media/GeorgiaPro-Light.1d02f8ecf5f0b44c92d9.ttf",
+    "static/media/GeorgiaPro-Italic.ttf": "/preciales_production/static/media/GeorgiaPro-Italic.249e8266db0bffac7424.ttf",
+    "static/media/ArticulatCF-Bold.ttf": "/preciales_production/static/media/ArticulatCF-Bold.661c956bc5b18ca2500b.ttf",
+    "static/media/ArticulatCF-Normal.ttf": "/preciales_production/static/media/ArticulatCF-Normal.c8002144799b5508439e.ttf",
+    "index.html": "/preciales_production/index.html",
+    "main.e5800934.css.map": "/preciales_production/static/css/main.e5800934.css.map",
+    "main.71d1a9cf.js.map": "/preciales_production/static/js/main.71d1a9cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5800934.css",
+    "static/js/main.71d1a9cf.js"
+  ]
+}
