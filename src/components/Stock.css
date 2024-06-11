@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Georgia_Italic';
+    src: url('../fonts/GeorgiaPro-Italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Georgia_Light';
+    src: url('../fonts/GeorgiaPro-Light.ttf') format('truetype');
+    /* Add additional src lines for other font file formats */
+  }
+  
+  @font-face {
+    font-family: 'Articulat-Bold';
+    src: url('../fonts/ArticulatCF-Bold.ttf') format('truetype');
+    /* Add additional src lines for other font file formats */
+  }
+  
+  @font-face {
+    font-family: 'Articulat-Normal';
+    src: url('../fonts/ArticulatCF-Normal.ttf') format('truetype');
+    /* Add additional src lines for other font file formats */
+  }
+
+
+  .stock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; Allow items to wrap to new rows */
+    position: relative;
+    height: 100%;
+    /* margin-left: 30px;
+    margin-right: 30px;*/
+    margin-top: -20px; 
+  }
+
+    .product-card-stock {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Adjust the width as needed */
+    height: 650px; /* Adjust the height as needed */
+    margin: 3px;
+    background-color: #f6e2d9;  
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+  }
+  
+  .stock-card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Articulat-Bold';
+  }
+  
+  .stock-card-text {
+    color: #3d3d3d;
+    margin-bottom: 10px;
+    font-family: 'Articulat-Normal';
+  }
+
+  .stock-card-text.php{
+    margin-bottom:0px;
+    font-size: 18px;
+  }
+
+  .stock-card-text.qty {
+    color: #888;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Articulat-Bold';
+  }
+
+  .stock-card-text.cat{
+    font-size: 18px;
+    margin-top:0px;
+  }
+
+  .stock-card-text.descript {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  
+  .stock-card-delete {
+    background-color: #be9684;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Articulat-Bold';
+    width: 225px;
+    margin-top: 10px;
+    order:2;
+  }
+  
+  .stock-card-delete:hover {
+    background-color: #8B6A59;
+    color: #fff;
+  }
+
+  .stock-card-delete:active {
+    background-color: #8B6A59;
+    color: #fff;
+    outline: none;
+  }
+
+  .stock-input {
+    font-family: 'Articulat-Normal';
+    width: 100px; /* Adjust the width as needed */
+    height: 40px;
+    margin-top: 30px;
+  }
+
+  .stockContext {
+    flex-grow: 1;
+    margin-left: -10px;
+  }
+
+  .stock-input-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    /* justify-content: space-between; */
+    padding: 8px;
+  }
+  
+  .edit-stock-button1 {
+    background-color: #be9684;
+    color: #fff;
+    /* height: 30px; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Articulat-Bold';
+    width:225px;
+    /* margin-left: 8px; */
+    order: 1;
+  }
+
+  .edit-stock-button:hover {
+    background-color: #8B6A59;
+    color: #fff;
+    outline: none;
+  }
+
+  .edit-stock-button:active {
+    background-color: #8B6A59;
+    color: #fff;
+    outline: none;
+  }

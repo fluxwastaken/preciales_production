@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Georgia_Italic';
+  src: url('../fonts/GeorgiaPro-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Georgia_Light';
+  src: url('../fonts/GeorgiaPro-Light.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Bold';
+  src: url('../fonts/ArticulatCF-Bold.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Normal';
+  src: url('../fonts/ArticulatCF-Normal.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to new rows */
+  height: 100%;
+  margin-top: -20px; 
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8e9e3;
+  padding: 20px;
+  width: 300px; /* Adjust the width as needed */
+  height: 590px; /* Adjust the height as needed */
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card-image{
+  height: 258px;
+  width: 258px;
+}
+
+.product-card-content {
+  flex: 1;
+}
+
+.product-card-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: 'Articulat-Bold';
+  margin-top:10px;
+}
+
+.product-card-text.price {
+  color: #888;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: 'Articulat-Bold';
+}
+
+.product-card-text.cat {
+  font-size: 18px;
+}
+
+.product-card-text.qty1 {
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.product-card-text.descript {
+  font-size: 15px;
+}
+
+.product-card-text {
+  color: #000000;
+  font-family: 'Articulat-Normal';
+}
+
+.product-card-button {
+  background-color: #be9684;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Articulat-Bold';
+  width: 100%;
+}
+
+.product-card-button:hover {
+  background-color: #8b6a59;
+  color: #fff;
+}
+
+.product-card-button:active {
+  background-color: #8b6a59;
+  color: #fff;
+  outline: none;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(83, 42, 8, 0.589);
+}
+
+

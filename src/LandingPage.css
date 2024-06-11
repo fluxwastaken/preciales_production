@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'Georgia_Italic';
+  src: url('./fonts/GeorgiaPro-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Georgia_Light';
+  src: url('./fonts/GeorgiaPro-Light.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Bold';
+  src: url('./fonts/ArticulatCF-Bold.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Normal';
+  src: url('./fonts/ArticulatCF-Normal.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+/* SCROLL BAR */
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5e6de;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #92786b;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #644231;
+}
+
+
+.mainlp-container{
+  
+    display: grid;
+    
+    height: 100%;
+    grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
+
+    text-align: center;
+    overflow:auto;
+    .spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
+
+}  
+  .mainlp-container >div {
+    background-color: rgb(255,253,251);
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+
+    overflow:auto;
+  }
+
+  #headerlp-container{
+    background-color: rgb(139,106,89);
+    height: 80px;
+  }
+
+  .body1lp-container{
+
+    height: fit-content;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: fit-content(100%) fit-content(100%);
+  }
+
+  .body1lp-container > div{
+
+    /* border: 1px solid black; */
+    background-color: rgb(255,253,251);
+    grid-template-rows: auto auto;
+  }
+
+  #imglp-circle{
+    height: 500px;
+    background-color: rgb(255,253,251);
+    flex: left;
+    margin-left: 30px;
+  } 
+  #body1lp-txt{
+    height: 500px;
+    max-width: 100%;
+
+  
+  }
+
+  #body1lp-txt1{
+    font-size: 80px;
+    text-align: left;
+    font-family: 'Articulat-Bold';
+    
+    margin-top: 110px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    word-break: break-all;
+    padding: 0;
+  }
+
+  #body1lp-txt2{
+    font-size: 30px;
+    text-align: left;
+    white-space:wrap; 
+    font-family: 'Articulat-Normal';
+  
+    margin-left: 40px;
+    margin-right: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+   
+  }
+
+  #lp-2{
+    margin-top: 75px;
+    align: center;
+    border-radius: 60%;
+
+   
+  }
+
+  h2{
+    font-family: 'Articulat-Bold';
+    text-align: left;
+  }
+
+  #column{
+    font-family: 'Articulat-Normal';
+  }
+ 
+  #imagelp-container{
+    background-color: rgb(255,253,251);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("landing-1.png");; */
+    background-image: url("./landing page/landing-1.png");
+    height: 300px;
+    max-width: 100%;
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+    
+
+  }
+  #imagelp-container:hover  {
+    opacity: 0.8;
+  }
+  #imagelp-container:hover #lp-1 {
+  opacity: 1;
+  }
+
+  #lp-1 {
+
+    position: absolute;
+    top: 200px;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    
+
+    transition: .5s ease;
+    opacity: 0;
+    
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #btn-lp-1 button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+
+    padding: 10px 25px;
+    color:  rgb(255, 255, 255);
+    background-color: rgb(139,106,89);
+
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Georgia_Italic';
+
+  /* 
+    transition: .5s ease;
+    opacity: 1; */
+  }
+
+  #lp-1 button:hover {
+    background-color: rgb(93, 68, 55);
+    color: white;
+  }
+
+  .body2lp-container{
+    background-color: rgb(255,253,251);
+
+
+    
+      height: 500px;
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: 70% 20%;
+      grid-template-rows: fit-content(100%) fit-content(100%);
+      row-gap: 0;
+    }
+
+  .body2lp-container > div{
+
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(255,253,251);
+    grid-template-columns: 70% 20%;
+    grid-template-rows:auto auto;
+  gap: 0;
+  }
+
+  #brownsqrlp-container{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255,253,251);
+
+   
+  } 
+
+  #brownsqrlp{
+    height: 200px;
+    max-width: 100%;
+
+    margin-top: 150px;
+    margin-bottom:150px ;
+    background-color: rgb(196, 153, 128);
+    opacity: 0.6;
+    flex: left;
+  } 
+
+  #textBrownSqrlp{
+    font-family: 'Georgia_Italic';
+    color: white;
+    font-size: 70px;
+    padding-top: 40px;
+  }
+
+  #body2lp-img{
+    background-color: rgb(255,253,251);
+    
+    position: relative;
+
+    width: fit-content;  
+    
+  }
+
+  #lp-3{
+    width: max-content;
+
+  }
+
+
+  
+  #footer-container{
+    background-color: rgba(218,206,199);
+    height: 200px;
+  }
+
+  #footer-txt1{
+    color: #8B6A59;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Articulat-Bold';
+
+    padding-top: 50px;
+  }
+  
+
+
+  #body3lp-container{
+    background-color: rgb(255,253,251);
+    height: 400px;
+
+    margin-top: 80px;
+    justify-content: center;
+    content: "";
+    display: table;
+    clear: both;
+
+
+    text-align: justify;
+
+
+  }
+  #body3lp-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #column {
+    float: left;
+    background-color: transparent;
+    width: 31.96%;
+    padding: 10px;
+    height: 400px;
+   
+  }
+
+  #column > p{
+    padding-left: 60px;
+  }
+
+  #column > h2{
+    padding-left: 60px;
+    font-size: 60px;
+  }
+
+  #b3-text > p{
+    font-size: medium;
+  }
+
+  p{
+    color: #8B6A59;
+    font-size: large;
+    
+
+}
+body{
+  color: #8B6A59;
+    font-size: larger;
+
+    font-family: Verdana, sans-serif; 
+    margin:0;
+   
+}
+
+
+img {
+    object-fit: cover;
+    vertical-align: middle;
+    
+}
+
+
+
+/* button{
+    background-color: transparent;
+    border-color: black;
+
+    height: 100%;
+    font-size: large;
+} */

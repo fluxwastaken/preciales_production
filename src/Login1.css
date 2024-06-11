@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Georgia_Italic';
+  src: url('./fonts/GeorgiaPro-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Georgia_Light';
+  src: url('./fonts/GeorgiaPro-Light.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Bold';
+  src: url('./fonts/ArticulatCF-Bold.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+@font-face {
+  font-family: 'Articulat-Normal';
+  src: url('./fonts/ArticulatCF-Normal.ttf') format('truetype');
+  /* Add additional src lines for other font file formats */
+}
+
+  .welcome-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .welcome {
+    font-family: 'Georgia_Italic';
+    text-align: center;
+    color: #8B6A59;
+    font-size: 40px;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 200px; /* Adjust the top margin as needed */
+  }
+
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .cell_left{
+    font-family: 'Georgia_Light';
+    color: #8B6A59;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 20px;
+  }
+
+  .cell_right{
+    font-family: 'Articulat-Normal';
+    color: #8B6A59;
+    font-size: 40px;
+    padding-left: 20px;
+    width: 300px;
+  }
+
+  
+  .username_input {
+    background-color:#F1EBE7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+  }
+
+  .username_input:hover {
+    background-color:#E6C7B8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .password_input {
+    background-color: #F1EBE7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+  }
+
+  .password_input:hover {
+    background-color: #E6C7B8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seller,.buyer{
+    font-family: 'Articulat-Bold';
+    background-color: #8B6A59;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 0 10px;
+    height: 40px;
+    width: 130px;
+    margin: 10px;
+  }
+
+  .seller:hover,.buyer:hover{
+    background-color: #E6C7B8;
+    color: #8B6A59;
+  }
+
+
+
+
+  

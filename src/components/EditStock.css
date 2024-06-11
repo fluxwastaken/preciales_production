@@ -1,0 +1,108 @@
+
+.main-container{
+  
+    display: grid;
+    
+    height: 100%;
+    grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
+
+    text-align: center;
+    overflow:auto;
+    .spacer {
+  height: 50vh;
+  background-color: #000;
+}
+
+
+}  
+  .main-container >div {
+    background-color: rgb(255,253,251);
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+
+    overflow:auto;
+  }
+
+#headerstock-container{
+    background-color: rgb(139,106,89);
+    height: 40px;
+  }
+
+  .headerstockTitle {
+    margin: 0;
+    font-family: 'Articulat-Bold';
+    color: white;
+    font-size: 25px;
+    float: left;
+    padding-left: 10px;
+  }
+
+  
+  #footerstock-container{
+    background-color: rgba(218,206,199);
+    height: 100px;
+  }
+
+  #footerstock-txt1{
+    color: #8B6A59;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Articulat-Bold';
+
+    padding-top: 20px;
+  }
+
+  Roey Presas
+
+.labelField{
+    margin-bottom: 2px;
+    color: black;
+    
+  }
+
+  .textField{
+    background-color:#f9efea;
+    font-family: 'Articulat-Normal';
+    margin-top: 2px;
+    margin-bottom:10px;
+  }
+
+  .textField:hover{
+    background-color:#ecd6ca;
+  }
+
+  .addproduct {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-right: 970px;
+
+    text-align: center;
+    margin: auto;
+    display: block;
+
+    background-color: #be9684;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Articulat-Bold';
+    width: 200px;
+  }
+
+  .addproduct:hover{
+    background-color: #8B6A59;
+    color: #fff;
+  }
+
+  .addproduct:active{
+    background-color: #8B6A59;
+    color: #fff;
+    outline: none;
+  }
+
+  h2{
+    text-align: center;
+    padding-top: 20px;
+  }
